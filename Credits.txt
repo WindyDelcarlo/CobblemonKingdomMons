@@ -1,0 +1,3 @@
+Animations, models, and textures by Vivian (Sylphiod)
+Base Code from the Cobblemon Wiki.
+Code Modification and testing done by WindyDelcarlo.

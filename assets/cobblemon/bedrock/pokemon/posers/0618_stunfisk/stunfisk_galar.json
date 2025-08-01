@@ -1,0 +1,30 @@
+{
+ "head": "head",
+ "portraitScale": 2,
+ "portraitTranslation": [ 0.5, -1.6, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0.3, -0.3, 0 ],
+ "faint": "bedrock(stunfisk_galar, faint)",
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "animations": [
+       "look",
+       "bedrock(stunfisk_galar, ground_idle)"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(stunfisk_galar, ground_walk)" ]
+   }
+ }
+}

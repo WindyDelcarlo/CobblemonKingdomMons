@@ -1,0 +1,12 @@
+2025-07-31 -- v1.1.0
+- Added Bronzor
+- Bronzor spawns on natural blocks when the sky light is less than 7. (AKA when underground.)
+- Bronzor has a ~50% chance to spawn in copper instead of its normal coloration.
+- Bronzors that spawn in lush caves will spawn with a weathered copper texture.
+
+2025-07-29 -- v1.0.1
+- Fixed the Stunfisk-G models to have their spikes all the way around.
+
+2025-07-24 -- v1.0.0
+- Added Stunfisk-G.
+-- Stunfisk G spawns below Y=0 (uncommon), in shallow water in forests during rain (uncommon), and in shallow water in savannahs during rain (rare).

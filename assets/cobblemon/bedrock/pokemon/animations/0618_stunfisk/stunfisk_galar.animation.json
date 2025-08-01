@@ -1,0 +1,343 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.stunfisk_galar.ground_idle": {
+			"loop": true,
+			"animation_length": 8.7917,
+			"bones": {
+				"body": {
+					"position": [0, 0, 0]
+				},
+				"mouthtopteeth": {
+					"rotation": {
+						"0.875": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"1.25": [0, 0, 0],
+						"6.0": [0, 0, 0],
+						"6.125": [-15, 0, 0],
+						"6.375": [0, 0, 0]
+					}
+				},
+				"mouthbottomteeth": {
+					"rotation": {
+						"0.875": [0, 0, 0],
+						"1.0": [10, 0, 0],
+						"1.25": [0, 0, 0],
+						"6.0": [0, 0, 0],
+						"6.125": [10, 0, 0],
+						"6.375": [0, 0, 0]
+					}
+				},
+				"backbodyfull": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [12.5, 0, 0],
+						"3.3333": [0, 0, 0]
+					}
+				},
+				"middlebody": {
+					"position": [0, 0, 0]
+				},
+				"backbody": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [7.5, 0, 0],
+						"3.5": [0, 0, 0]
+					}
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -10],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, -15],
+						"2.5": [0, 0, 0],
+						"3.0": [0, 0, -10],
+						"3.5": [0, 0, 0]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 10],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, 15],
+						"2.5": [0, 0, 0],
+						"3.0": [0, 0, 10],
+						"3.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.battle_idle": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"body": {
+					"position": [0, 0, 0]
+				},
+				"mouthtopteeth": {
+					"rotation": {
+						"0.875": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"1.25": [0, 0, 0],
+						"3.0": [0, 0, 0],
+						"3.125": [-15, 0, 0],
+						"3.375": [0, 0, 0]
+					}
+				},
+				"mouthbottomteeth": {
+					"rotation": {
+						"0.875": [0, 0, 0],
+						"1.0": [10, 0, 0],
+						"1.25": [0, 0, 0],
+						"3.0": [0, 0, 0],
+						"3.125": [10, 0, 0],
+						"3.375": [0, 0, 0]
+					}
+				},
+				"backbodyfull": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [12.5, 0, 0],
+						"3.3333": [0, 0, 0]
+					}
+				},
+				"middlebody": {
+					"position": [0, 0, 0]
+				},
+				"backbody": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [7.5, 0, 0],
+						"3.5": [0, 0, 0]
+					}
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -10],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, -15],
+						"2.5": [0, 0, 0],
+						"3.0": [0, 0, -10],
+						"3.5": [0, 0, 0]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 10],
+						"1.5": [0, 0, 0],
+						"2.0": [0, 0, 15],
+						"2.5": [0, 0, 0],
+						"3.0": [0, 0, 10],
+						"3.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.ground_walk": {
+			"animation_length": 2,
+			"bones": {
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -7.5],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 7.5],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.air_idle": {
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 4, 0],
+						"1.0": [0, 6, 0],
+						"2.0": [0, 4, 0]
+					}
+				},
+				"wings": {
+					"rotation": [0, 0, 0]
+				},
+				"frontbodyfull": {
+					"rotation": [7.5, 0, 0]
+				},
+				"backbody": {
+					"rotation": [-10, 0, 0]
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 12.5],
+						"1.0": [0, 0, -12.5],
+						"2.0": [0, 0, 12.5]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, -12.5],
+						"1.0": [0, 0, 12.5],
+						"2.0": [0, 0, -12.5]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.water_idle": {
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 4, 0],
+						"1.0": [0, 6, 0],
+						"2.0": [0, 4, 0]
+					}
+				},
+				"wings": {
+					"rotation": [0, 0, 0]
+				},
+				"frontbodyfull": {
+					"rotation": [7.5, 0, 0]
+				},
+				"backbody": {
+					"rotation": [-10, 0, 0]
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 12.5],
+						"1.0": [0, 0, -12.5],
+						"2.0": [0, 0, 12.5]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, -12.5],
+						"1.0": [0, 0, 12.5],
+						"2.0": [0, 0, -12.5]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.air_fly": {
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 4, 0],
+						"0.5": [0, 6, 0],
+						"1.0": [0, 4, 0]
+					}
+				},
+				"wings": {
+					"rotation": [0, 0, 0]
+				},
+				"frontbodyfull": {
+					"rotation": [7.5, 0, 0]
+				},
+				"backbody": {
+					"rotation": [-10, 0, 0]
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 12.5],
+						"0.5": [0, 0, -12.5],
+						"1.0": [0, 0, 12.5]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, -12.5],
+						"0.5": [0, 0, 12.5],
+						"1.0": [0, 0, -12.5]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.water_swim": {
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 4, 0],
+						"0.5": [0, 6, 0],
+						"1.0": [0, 4, 0]
+					}
+				},
+				"wings": {
+					"rotation": [0, 0, 0]
+				},
+				"frontbodyfull": {
+					"rotation": [7.5, 0, 0]
+				},
+				"backbody": {
+					"rotation": [-10, 0, 0]
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [0, 0, 12.5],
+						"0.5": [0, 0, -12.5],
+						"1.0": [0, 0, 12.5]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [0, 0, -12.5],
+						"0.5": [0, 0, 12.5],
+						"1.0": [0, 0, -12.5]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.sleep": {
+			"animation_length": 1,
+			"bones": {
+				"backbodyfull": {
+					"rotation": [87.5, 0, 0]
+				},
+				"backbody": {
+					"rotation": {
+						"0.0": {
+							"pre": [72.5, 0, 0],
+							"post": [72.5, 0, 0]
+						},
+						"1.0": [72.5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.stunfisk_galar.faint": {
+			"animation_length": 1
+		},
+		"animation.stunfisk_galar.cry": {
+			"animation_length": 2,
+			"bones": {
+				"mouthtopteeth": {
+					"rotation": {
+						"0.5833": [0, 0, 0],
+						"0.75": [-7.5, 0, 0],
+						"1.0": [-5, 0, 0],
+						"1.375": [-20, 0, 0],
+						"1.5833": [0, 0, 0]
+					}
+				},
+				"mouthbottomteeth": {
+					"rotation": {
+						"0.5833": [0, 0, 0],
+						"0.75": [17.5, 0, 0],
+						"0.9583": [7.5, 0, 0],
+						"1.375": [12.5, 0, 0],
+						"1.5417": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

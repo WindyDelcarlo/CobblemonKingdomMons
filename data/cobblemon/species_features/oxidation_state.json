@@ -1,0 +1,13 @@
+{
+	"type": "choice",
+	"keys": [
+	"oxidation_state"
+	],
+	"default": "none",
+	"choices": [
+		"copper",
+		"weathered"
+	],
+	"isAspect": true,
+	"aspectFormat": "oxidation-{{choice}}"
+}
