@@ -1,0 +1,114 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bronzong-1",
+      "pokemon": "bronzong",
+	  "presets": [
+		"natural"
+	],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-42",
+      "weight": 0.5,
+      "condition": {
+        "minSkyLight": 0,
+		"maxSkyLight": 7
+      },
+	  "anticondition": {
+		"biomes": [
+			"#cobblemon:is_lush"
+		]
+	  }
+    },
+	{
+      "id": "bronzong-2",
+      "pokemon": "bronzong",
+	  "presets": [
+		"natural"
+	],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "37-42",
+      "weight": 0.2,
+      "condition": {
+        "canSeeSky": false,
+		"biomes": [
+		"#minecraft:is_mountain"
+		]
+	  },
+	  "anticondition": {
+		"biomes": [
+			"#cobblemon:is_lush"
+		]
+	  }
+    },
+    {
+      "id": "bronzong-3",
+      "pokemon": "bronzong oxidation_state=copper", 
+	  "presets": [
+		"natural"
+		],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-42",
+      "weight": 0.5,
+      "condition": {
+        "minSkyLight": 0,
+		"maxSkyLight": 7
+      },
+	  "anticondition": {
+		"biomes": [
+			"#cobblemon:is_lush"
+		]
+	  }
+    },
+	{
+      "id": "bronzong-4",
+      "pokemon": "bronzong oxidation_state=copper",
+	  "presets": [
+		"natural"
+		],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "37-42",
+      "weight": 0.2,
+      "condition": {
+        "canSeeSky": false,
+		"biomes": [
+		"#minecraft:is_mountain"
+		]
+      },
+	  "anticondition": {
+		"biomes": [
+			"#cobblemon:is_lush"
+		]
+	  }
+    },
+	{
+      "id": "bronzong-5",
+      "pokemon": "bronzong oxidation_state=weathered", 
+	  "presets": [
+		"natural"
+		],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-42",
+      "weight": 0.5,
+      "condition": {
+        "minSkyLight": 0,
+		"maxSkyLight": 7,
+		"biomes": [
+			"#cobblemon:is_lush"
+		]
+      }
+    }
+  ]
+}

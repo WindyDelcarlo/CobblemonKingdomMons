@@ -1,6 +1,7 @@
 {
 	"pokemon": [
-		"bronzor"
+		"bronzor",
+		"bronzong"
 	],
 	"features": [
 		"oxidation_state"

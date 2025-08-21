@@ -1,6 +1,12 @@
+2025-08-20 -- v 1.2.0
+- Added Bronzong
+- Bronzong uncommonly spawns on natural blocks when the sky light is less than 7 and rarely on mountains. (AKA when underground.)
+- Bronzong has a ~50% chance to spawn in copper instead of its normal coloration.
+- Bronzong that spawn in lush caves will spawn with a weathered copper texture.
+
 2025-07-31 -- v1.1.0
 - Added Bronzor
-- Bronzor spawns on natural blocks when the sky light is less than 7. (AKA when underground.)
+- Bronzor commonly spawns on natural blocks when the sky light is less than 7 and uncommonly on mountains. (AKA when underground.)
 - Bronzor has a ~50% chance to spawn in copper instead of its normal coloration.
 - Bronzors that spawn in lush caves will spawn with a weathered copper texture.
 

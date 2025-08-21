@@ -1,13 +1,13 @@
 {
-  "nationalPokedexNumber": 436,
-  "name": "Bronzor",
+  "nationalPokedexNumber": 437,
+  "name": "Bronzong",
   "primaryType": "steel",
   "secondaryType": "psychic",
   "maleRatio": -1,
-  "height": 5,
-  "weight": 605,
+  "height": 13,
+  "weight": 1870,
   "pokedex": [
-    "cobblemon.species.bronzor.desc"
+    "cobblemon.species.bronzong.desc"
   ],
   "labels": [
     "gen4"
@@ -22,24 +22,24 @@
     "mineral"
   ],
   "baseStats": {
-    "hp": 57,
-    "attack": 24,
-    "defence": 86,
-    "special_attack": 24,
-    "special_defence": 86,
-    "speed": 23
+    "hp": 67,
+    "attack": 89,
+    "defence": 116,
+    "special_attack": 79,
+    "special_defence": 116,
+    "speed": 33
   },
   "evYield": {
     "hp": 0,
     "attack": 0,
     "defence": 1,
     "special_attack": 0,
-    "special_defence": 0,
+    "special_defence": 1,
     "speed": 0
   },
-  "baseExperienceYield": 60,
+  "baseExperienceYield": 175,
   "experienceGroup": "medium_fast",
-  "catchRate": 255,
+  "catchRate": 90,
   "eggCycles": 20,
   "baseFriendship": 50,
   "baseScale": 1,
@@ -57,40 +57,47 @@
     }
   },
   "drops": {
-    "amount": 4,
+    "amount": 5,
     "entries": [
       {
         "item": "minecraft:raw_iron",
-        "quantityRange": "0-1"
+        "quantityRange": "0-2"
       },
       {
         "item": "cobblemon:mental_herb",
-        "percentage": 2.5
+        "percentage": 5.0
       },
       {
         "item": "cobblemon:light_clay",
-        "percentage": 2.5
+        "percentage": 5.0
       },
       {
         "item": "cobblemon:occa_berry",
-        "percentage": 2.5
+        "percentage": 5.0
       }
     ]
   },
   "moves": [
+    "1:sunnyday",
     "1:tackle",
     "1:confusion",
-    "4:confuseray",
-    "8:payback",
+    "1:confuseray",
+    "1:block",
+    "1:feintattack",
+    "1:payback",
+    "1:healblock",
+    "1:psywave",
+    "1:weatherball",
     "12:imprison",
     "16:gyroball",
     "20:hypnosis",
     "24:safeguard",
     "28:extrasensory",
     "32:heavyslam",
-    "36:irondefense",
-    "40:metalsound",
-    "44:futuresight",
+    "38:irondefense",
+    "44:metalsound",
+    "50:futuresight",
+    "56:raindance",
     "egg:feintattack",
     "egg:gravity",
     "egg:healblock",
@@ -98,6 +105,8 @@
     "egg:recycle",
     "tm:allyswitch",
     "tm:ancientpower",
+    "tm:block",
+    "tm:bodypress",
     "tm:bodyslam",
     "tm:bulldoze",
     "tm:calmmind",
@@ -107,28 +116,36 @@
     "tm:earthquake",
     "tm:endure",
     "tm:expandingforce",
+    "tm:explosion",
     "tm:facade",
     "tm:flash",
     "tm:flashcannon",
     "tm:futuresight",
+    "tm:gigaimpact",
     "tm:grassknot",
     "tm:gravity",
     "tm:guardswap",
     "tm:gyroball",
+    "tm:hardpress",
     "tm:heavyslam",
     "tm:helpinghand",
     "tm:hex",
+    "tm:hyperbeam",
     "tm:icespinner",
     "tm:imprison",
     "tm:irondefense",
     "tm:ironhead",
     "tm:lightscreen",
     "tm:metalsound",
+    "tm:meteorbeam",
+    "tm:nightshade",
     "tm:payback",
     "tm:powergem",
     "tm:powerswap",
     "tm:protect",
+    "tm:psybeam",
     "tm:psychic",
+    "tm:psychicnoise",
     "tm:psychicterrain",
     "tm:psychup",
     "tm:psyshock",
@@ -139,6 +156,7 @@
     "tm:rockblast",
     "tm:rockpolish",
     "tm:rockslide",
+    "tm:rocksmash",
     "tm:rocktomb",
     "tm:rollout",
     "tm:safeguard",
@@ -154,6 +172,7 @@
     "tm:steelroller",
     "tm:stompingtantrum",
     "tm:storedpower",
+    "tm:strength",
     "tm:substitute",
     "tm:sunnyday",
     "tm:takedown",
@@ -161,6 +180,7 @@
     "tm:terablast",
     "tm:trick",
     "tm:trickroom",
+    "tm:weatherball",
     "tm:wonderroom",
     "tm:zenheadbutt",
     "tutor:allyswitch",
@@ -171,14 +191,18 @@
     "tutor:chargebeam",
     "tutor:expandingforce",
     "tutor:flashcannon",
+    "tutor:gigaimpact",
     "tutor:gravity",
     "tutor:helpinghand",
+    "tutor:hyperbeam",
     "tutor:irondefense",
     "tutor:ironhead",
+    "tutor:meteorbeam",
     "tutor:psychic",
     "tutor:recycle",
     "tutor:rest",
     "tutor:rockslide",
+    "tutor:rocksmash",
     "tutor:rollout",
     "tutor:shadowball",
     "tutor:signalbeam",
@@ -193,24 +217,9 @@
     "tutor:wonderroom",
     "tutor:zenheadbutt"
   ],
-  "evolutions": [
-    {
-      "id": "bronzor_bronzong",
-      "variant": "level_up",
-      "result": "bronzong",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "block"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 33
-        }
-      ]
-    }
-  ],
-  "forms": [
+  "preEvolution": "bronzor",
+  "evolutions": [],
+   "forms": [
 	{
 	"name": "Copper",
 	"primaryType": "steel",
@@ -219,7 +228,7 @@
 	"height": 5,
 	"weight": 605,
 	"pokedex": [
-		"cobblemon.species.bronzor.desc"
+		"cobblemon.species.bronzong.desc"
 	],
 	"labels": [
 		"gen4"
@@ -227,23 +236,7 @@
 	"aspects": [
 		"oxidation-copper"
 	],
-	"evolutions": [
-	{
-      "id": "bronzor_bronzong_copper",
-      "variant": "level_up",
-      "result": "bronzong oxidation_state=copper",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "block"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 33
-        }
-      ]
-    }
-	],
+	"evolutions": [],
 	"battleOnly": false
 	},
 	{
@@ -254,7 +247,7 @@
 	"height": 5,
 	"weight": 605,
 	"pokedex": [
-		"cobblemon.species.bronzor.desc"
+		"cobblemon.species.bronzong.desc"
 	],
 	"labels": [
 		"gen4"
@@ -262,23 +255,7 @@
 	"aspects": [
 		"oxidation-weathered"
 	],
-	"evolutions": [
-	{
-      "id": "bronzor_bronzong_weathered",
-      "variant": "level_up",
-      "result": "bronzong oxidation_state=weathered",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "block"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 33
-        }
-      ]
-    }
-	],
+	"evolutions": [],
 	"battleOnly": false
 	}
 	]

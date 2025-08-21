@@ -1,0 +1,43 @@
+{
+ "species": "cobblemon:bronzong",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:bronzong",
+     "model": "cobblemon:bronzong.geo",
+     "texture": "cobblemon:textures/pokemon/0437_bronzong/bronzong.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/0437_bronzong/bronzong_shiny.png"
+   },
+   {
+	"aspects": [
+	  "oxidation-copper"
+	  ],
+	"texture": "cobblemon:textures/pokemon/0437_bronzong/bronzong_copper.png"
+   },
+   {
+	"aspects": [
+	"oxidation-copper", "shiny"
+	],
+	"texture": "cobblemon:textures/pokemon/0437_bronzong/bronzong_copper_shiny.png"
+   },
+   {
+	"aspects": [
+	"oxidation-weathered"
+	],
+	"texture": "cobblemon:textures/pokemon/0437_bronzong/bronzong_weathered.png"
+   },
+   {
+	"aspects": [
+	"oxidation-weathered", "shiny"
+	],
+	"texture": "cobblemon:textures/pokemon/0437_bronzong/bronzong_weathered_shiny.png"
+   }
+]
+}
